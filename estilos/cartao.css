@@ -1,0 +1,44 @@
+.cartao{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5em 6em;
+}
+
+.cartao__caixa{
+    box-sizing: content-box;
+    background-color:  rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 3em 3em;    
+}
+
+.cartao__topo{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.cartao__texto{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+    padding-top: 1em;
+}
+
+.cartao__imagem{
+    padding-top: 2em;
+
+}
+
+.cartao__nome{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto);
+    padding: 1em;
+}
+
+.cartao__cargo{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-principal);
+}

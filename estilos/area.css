@@ -1,0 +1,39 @@
+.area{
+    margin:  0.5em;
+    text-align:center;
+}
+
+.area__titulo{
+    margin: auto;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 18em;
+}
+
+.area__titulo--desenvolvimento{
+    padding-top: 2em;
+}
+
+.area__caixa{
+    text-align: start;
+    margin: 2em 22em;
+    border: 2px solid var(--borda);
+    border-radius: 16px;
+    padding: 2em;
+}
+
+.area__descricao{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 2em;
+}
+
+
+.area__texto{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-principal);
+    padding-right: 2.5em;
+    padding-bottom: 3em;
+}

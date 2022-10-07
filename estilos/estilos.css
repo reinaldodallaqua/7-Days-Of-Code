@@ -1,0 +1,24 @@
+@import url(../estilos/header.css);
+@import url(../estilos/sobre.css);
+@import url(../estilos/metricas.css);
+@import url(../estilos/vagas.css);
+@import url(../estilos/area.css);
+@import url(../estilos/cartao.css);
+@import url(../estilos/rodape.css);
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-principal: #667085;
+    --vermelho: #8E2424;
+    --preto: #101828;
+    --borda: #EAECF0;
+    --font-principal: "Inter";
+    --background: #F9FAFB;
+}
+
+
+body{
+    background-color: var(--branco-principal);
+    font-family: var(--font-principal);
+}
+
